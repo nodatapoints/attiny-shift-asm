@@ -6,6 +6,8 @@ I used the `avr-gcc` compiler. Much to my surprise I could hardly find any infor
 
 Note the `__SFR_OFFSET` set to `0` -- apparently the offset isn't needed at all using assembly, but very important for C.
 
+_Credit partly goes to @AlcedoAttis for a long night of assembly debugging._
+
 ### Building and Programming
 To compile and upload use
 
